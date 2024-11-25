@@ -4,7 +4,7 @@ redo_stack = []
 def tambah_aksi (aksi):
     undo_stack.append(aksi)
     redo_stack.clear()  
-    print(f"Aksi '{aksi}' ditambahkan.")
+    print("Aksi ",aksi,"ditambahkan.")
     print("Data setelah di-Undo Stack:", undo_stack)
     print("Data setelah di-Redo Stack:", redo_stack)
 
